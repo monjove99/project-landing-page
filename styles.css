@@ -19,7 +19,10 @@ body {
     padding-right: 180px;
     padding-left: 200px;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+
 
 h2 {
     color: #f9faf8;
@@ -42,18 +45,26 @@ ul {
 
 .hero-section {
     background-color: #1f2937;
-    padding-top: 39.840px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 
 h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    max-width: 320px;
+    padding-left: 200px;
 }
 
 .hero-p {
     color: #f9faf8;
-
+    padding-left: 200px;
+    max-width: 380px;
 }
 
 .hero-button {
@@ -65,11 +76,14 @@ h1 {
     font-weight: bolder;
     padding: 12px;
     width: 125px;
+    margin-left: 200px;
 }
 
-.blue-oats {
-    height: auto;
+.gym-bro {
+   margin-right: 180px;
+   
 }
+
 
 .random {
     background-color: #f9faf8;
