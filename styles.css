@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+/* Raleway and sans-serif is the font that will be used to all elements */
 * {
     font-family: 'Raleway', sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    margin-top: -20px;
     background-color: #f9faf8;
-  }
+    margin: 0;
+    margin-top: -20px;
+    padding: 0;
+}
 
 
+/* Header styles */
 .header {
     background-color: #1f2937;
     display: flex;
@@ -30,11 +32,12 @@ h2 {
     font-size: 35px;
 }
 
+
+/* Styles for the Header links */
 a {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
-    
 }
 
 ul {
@@ -44,6 +47,8 @@ ul {
     margin: 30px;
 }
 
+
+/* Styles for the hero section */
 .hero-section {
     background-color: #1f2937;
     padding-top: 0;
@@ -64,8 +69,8 @@ h1 {
 
 .hero-p {
     color: #f9faf8;
-    padding-left: 200px;
     max-width: 380px;
+    padding-left: 200px;
 }
 
 .hero-button {
@@ -75,17 +80,17 @@ h1 {
     color: #f9faf8;
     font-size: 17px;
     font-weight: bolder;
-    padding: 12px;
-    width: 125px;
     margin-left: 200px;
+    padding: 12px;
+    width: 125px; 
 }
 
 .gym-bro {
    margin-right: 180px;
-   
 }
 
 
+/* Styles for the random section */
 .random {
     background-color: #f9faf8;
     padding-bottom: 50px;
@@ -101,8 +106,6 @@ h1 {
 }
 
 
-
-
 .foods {
     display: flex;
     justify-content: center;
@@ -114,7 +117,7 @@ h1 {
 
 .meal{
     height: 250px;
-    width: 250px;
+    width: 250px; 
 }
 
 
@@ -127,7 +130,7 @@ h1 {
 }
 
 
-
+/* Styles for the quote section */
 .quote-section {
     background-color: #e5e7eb;
     padding: 100px;
@@ -151,6 +154,48 @@ h1 {
     font-weight: bolder;
 }
 
+
+/* Styles for the sign section */
+.sign-section {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.call-to-action {
+    color: #f9faf8;
+    font-weight: bolder; 
+}
+
+.redirect {
+    color: #f9faf8;
+    font-weight: 500;
+}
+
+.sign-button {
+    background-color: #3882f6;
+    border: solid 2px #f9faf8;
+    border-radius: 12px;
+    color: #f9faf8;
+    font-size: 17px;
+    font-weight: bolder;
+    width: 125px;
+    padding: 12px;
+}
+
+
+/* Footer styles */
 footer {
     display: flex;
     justify-content: center;
@@ -158,5 +203,4 @@ footer {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 40px;
-    
 }
